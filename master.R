@@ -79,6 +79,11 @@ metadonnees <- metadonnees[indices,]
 # je rassemble les deux tables (les metadonnées et le texte des questions dans une seule table)
 donnees_propres <- cbind(metadonnees,questions)
 
+save(donnees_propres,file="donnees_propres.Rda")
+# statistiques descriptives -----------------------------------------------
+
+
+
 
 
 # analyse textuelle -------------------------------------------------------
