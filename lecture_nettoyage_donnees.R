@@ -79,4 +79,9 @@ metadonnees <- metadonnees[indices,]
 # je rassemble les deux tables (les metadonnées et le texte des questions dans une seule table)
 donnees_propres <- cbind(metadonnees,questions)
 
+# je mets les dates en format date : 
+donnees_propres$dateJO <- as.POSIXct(donnees_propres$dateJO,format= "%Y-%m-%d")
+
+
+
 save(donnees_propres,file="donnees_propres.Rda")

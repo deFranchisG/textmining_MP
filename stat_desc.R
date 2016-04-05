@@ -13,3 +13,8 @@ p
 p <- ggplot(donnees_propres)
 p <- p + geom_bar(data = donnees_propres, aes(x=auteur.identite.acteurRef))
 p
+
+p <- ggplot(donnees_propres)
+p <- p + geom_histogram(data = donnees_propres, aes(x=dateJO),binwidth = 1)
+p
+

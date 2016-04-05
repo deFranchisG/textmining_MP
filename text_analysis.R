@@ -1,5 +1,9 @@
 rm(list=ls())
+library(dplyr)
+
 load(file="donnees_propres.Rda")
+texte_id <- select(donnees_propres,texte,auteur.identite.acteurRef)
+table_indiv <- aggregate(texte_id$text, list(texte_id$auteur.identite.acteurRef), paste, collapse="")
 
 # analyse textuelle -------------------------------------------------------
 textdata <- as.character(donnees_propres$texte)
