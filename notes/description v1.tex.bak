@@ -1,0 +1,37 @@
+\documentclass[12pt]{article}%
+
+\begin{document}
+
+\title{{Langage et politique en France}}%
+ 
+\maketitle
+
+\begin{abstract}
+
+
+
+\thispagestyle{empty}
+\end{abstract}
+
+
+\newpage
+
+
+\section{Introduction}
+
+On propose d'étudier le langage utilisé par les partis politiques en France pour pouvoir ``scorer'' les politiques par leur idéologie. Plus généralement, une fois qu'on a pu estimer l'idéologie ``contenue'' dans un mot ou une phrase, on peut ainsi scorer un ensemble de documents, par exemple des journaux.
+
+\section{Méthodologie}
+
+\subsection{Réplication de Jensen et al. 2012}
+
+\begin{itemize}
+
+\end{itemize}
+
+
+\section{Données}
+
+
+
+\end{document}
